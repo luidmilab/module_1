@@ -1,0 +1,147 @@
+*{
+	box-sizing: border-box;
+
+}
+body{
+	margin: 0;
+}
+.block{
+	padding: 0 180px;
+}
+
+.m-width{
+	max-width: 1170px;
+}
+.first{
+	background: #2ecc71 url('./images/bg-1.png') 100% 100% no-repeat;
+	background-size: cover;
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 200px;
+}
+.logo{
+	display: inline-block; 
+	margin-left: 0;
+	vertical-align: middle;
+}
+.logo_men{
+	height: 28px;
+	margin-left: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+.menu{
+	margin-left: 300px;
+	display:inline-block;
+	vertical-align: middle;
+}
+.head_butt{
+	margin-left: 30px;
+}
+.head_butt:hover{
+	color: grey;
+}
+.header{
+	margin-bottom: 207px;
+}
+
+.head_butt{
+color: #fefefe;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.72px;
+display: inline-block;
+}
+h1{
+color: #f4f4f4;
+font-family: Roboto;
+font-size: 64px;
+font-weight: 300;
+line-height: 60px;
+letter-spacing: 2.56px;
+}
+h1 > span{
+
+font-family: Roboto;
+font-weight: 700;
+letter-spacing: 2.56px;
+color: #f4f4f4;
+}
+
+p{
+
+color: #f4f4f4;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 300;
+line-height: 32px;
+letter-spacing: 0.72px;
+}
+.text{
+	max-width: 627px;
+}
+.google{
+	margin-left: 20px;
+}
+.button{
+	-webkit-transition: all 0.5s ease-out;
+}
+.button:hover{
+	transform: scale(1.1);
+}
+.phone-home{
+	position: absolute;
+	right: 180px;
+	bottom: 0;
+}
+.second{
+	padding-top: 50px;
+}
+.features{
+	margin-left: -40px;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	
+
+}
+.group{
+	position: absolute;
+	left: 150px;
+	top: 100px;
+}
+.iphone{
+	position: relative;
+	z-index: 2;
+}
+.text2{
+	max-width: 448px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 200px;
+
+}
+h2{
+width: 100%;
+color: #5a5a5a;
+font-family: Roboto;
+font-size: 48px;
+font-weight: 300;
+letter-spacing: 1.44px;
+
+}
+h2 > span{
+color: #2ecc71;
+letter-spacing: 1.44px;
+}
+
+p{
+
+color: #5a5a5a;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 300;
+letter-spacing: 0.54px;
+}
